@@ -1,0 +1,29 @@
+Host asgard
+  HostName ssh.noahschepers.com
+  User kevin
+  Port 88
+  IdentityFile ~/.ssh/obi
+
+Host asgard-l
+  HostName 192.168.0.19
+  User kevin
+  Port 88
+  IdentityFile ~/.ssh/obi
+
+Host github.com
+  HostName github.com
+  User git
+  Port 22
+  IdentityFile ~/.ssh/obi
+
+Host heimdall
+  HostName 45.33.87.174
+  User kevin
+  Port 22
+  IdentityFile ~/.ssh/obi
+
+Host heimdall-l
+  HostName 192.168.0.11
+  User kevin
+  Port 22
+  IdentityFile ~/.ssh/obi
